@@ -23,7 +23,7 @@ public class HelloApplication extends Application {
                     String message;
                     try {
                         message = dataInputStream.readUTF();
-                        System.out.println("Client : " + message);
+                        System.out.println("Server : " + message);
                     } catch (IOException e) {
                         throw new RuntimeException(e);
                     }
